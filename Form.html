@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel form for trip</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter the name">
+            <input type="text" placeholder="Enter the address"><br>
+            <label for="sectionida">
+                <!-- setion id will not be same  -->
+                <input type="radio" value="section A" name="section" id="sectionida">Section A
+            </label>
+            <label for="sectionidb">
+                <input type="radio" value="section B" name="section" id="sectionidb"> Section B
+            </label>
+            <label for="sectionidc">
+                <input type="radio" value="section c" name="section" id="sectionidc" class="blue"> Section C <br>
+            </label>
+            <input type="checkbox" name="food canteen" id="foodCateen" class="red">
+            <label for="food canteen"> want food canteen</label>
+            <textarea name="Explain" id="explain" cols="20" rows="3" placeholder="why you want to join "></textarea>
+            <select name="Car" id="select car">
+                <option value="no car">select your car</option>
+                <option value="nexon">nexon</option>
+                <option value="polo">polo</option>
+                <option value="Dzire">Dzire</option>
+                <option value="Rolls Royce">Rolls Royce</option>
+                <option value="i10">i10</option>
+                <option value="i20">i20</option>
+            </select>
+
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>
