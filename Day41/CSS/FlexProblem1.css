@@ -1,0 +1,65 @@
+body {
+    padding: 2em;
+}
+
+.headerContainer {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: tomato;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.footerContainer {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: lightgreen;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mainContentItem {
+    text-align: left;
+    background-color: deepskyblue;
+}
+
+article {
+    padding: 18px;
+    margin: 10px;
+    background: aqua;
+}
+
+.sideBarLeftItem {
+    background: gold;
+}
+
+.sideBarRightItem {
+    background: hotpink;
+}
+
+.sideBarItem {
+    flex: 1 0 0;
+    border: px solid green;
+}
+
+.mainContentItem {
+    flex: 3 0px;
+    order: 2;
+}
+
+.sideBarLeftItem {
+    order: 1;
+}
+
+.sideBarRightItem {
+    order: 3;
+}

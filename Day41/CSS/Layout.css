@@ -1,0 +1,79 @@
+html{ 
+    font-size: 12px;
+    font-family: "arial", sans-serif;
+    }
+
+ html{
+     background-color: #a8ddeb;;
+     }  
+        .headerContainer {
+            display: flex;
+            flex-flow: column wrap;
+            background-color: whitesmoke;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-align: center;
+            padding: 50px;
+            height: 10vh;
+        }
+
+        .feeds{
+            display: flex;
+            color: red;
+            font-size: small;
+            text-align: right;
+        }
+        
+        .footerContainer {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background: rgb(136, 187, 196);
+            font-weight: bold;
+            padding: 50px;
+            height: 10vh;
+        }
+        
+        .mainContainer {
+            display: flex;
+            flex-flow: row wrap;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .mainContentItem {
+            text-align: left;
+            background: lightskyblue;
+            flex: 5 0px;
+            order: 2;
+        }
+        
+        article {
+            padding: 10px;
+            margin: 10px;
+            background: whitesmoke;
+        }
+        
+        .asideItem {
+            padding: 50px;
+            align-content: center;
+            text-align: justify;
+            background: whitesmoke;
+            order: 3;
+        }
+        
+        .navigationItem {
+            padding: 10px;
+            text-align: center;
+            background: whitesmoke;
+            order: 1;
+            font-size: 20px;
+        }
+        
+        .subColumn {
+            padding: 10px;
+            align-content: left;
+            flex: 1 0 0;
+            border: 0px solid lightgreen;
+        }
+    
